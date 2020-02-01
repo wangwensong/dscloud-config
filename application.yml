@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev # 测试环境
+    application:
+      name: dacloud-config-dev
+---
+spring:
+  profiles: test #开发环境
+    application:
+      name: dacloud-config-test
+
+# 请保存UTF-8格式
+
