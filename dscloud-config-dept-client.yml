@@ -38,7 +38,7 @@ eureka:
 ---
  server:
   port: 8001
-spring:
+spring: 
   profile: test
   application:
      name: dscloud-config-dept-client
