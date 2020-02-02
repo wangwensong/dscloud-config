@@ -4,12 +4,12 @@ spring:
       - dev
 ---
 spring:
-  profiles: dev # 测试环境
+  profile: dev
     application:
       name: dacloud-config-dev
 ---
 spring:
-  profiles: test #开发环境
+  profile: test
     application:
       name: dacloud-config-test
 
