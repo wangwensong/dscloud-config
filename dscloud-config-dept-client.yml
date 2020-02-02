@@ -1,7 +1,6 @@
 spring:
-  profiles: dev
-    active:
-    - dev
+  profiles:
+    active: dev
 ---
 server:
   port: 8001
@@ -21,6 +20,10 @@ spring:
        initial-size: 5 #初始化连接数量
        max-total: 5
        max-wait-millis: 20
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.dasong.api.entity
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
 
 eureka:
   instance:
@@ -54,6 +57,10 @@ spring:
        initial-size: 5 #初始化连接数量
        max-total: 5
        max-wait-millis: 20
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.dasong.api.entity
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
 
 eureka:
   instance:
