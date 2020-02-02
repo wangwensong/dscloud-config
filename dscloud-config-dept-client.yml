@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-     name:dscloud-config-dept-client
+     name: dscloud-config-dept-client
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource
      driver-class-name: com.mysql.cj.jdbc.Driver
@@ -51,7 +51,7 @@ info:
 spring:
   profiles: test
   application:
-     name:dscloud-config-dept-client
+     name: dscloud-config-dept-client
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource
      driver-class-name: com.mysql.cj.jdbc.Driver
