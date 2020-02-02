@@ -6,11 +6,9 @@ spring:
 spring:
   profile: dev
   application:
-      name: dacloud-config-dev
+      name: dscloud-config-dev
 ---
 spring:
   profile: test
   application:
-      name: dacloud-config-test
-
-
+      name: dscloud-config-test
