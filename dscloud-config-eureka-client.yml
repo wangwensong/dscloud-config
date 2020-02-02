@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-     name:dscloud-config-erueka-client
+     name: dscloud-config-erueka-client
      
 eureka:
   instance:
@@ -26,7 +26,7 @@ server:
 spring:
   profiles: test
   application:
-     name:dscloud-config-erueka-client
+     name: dscloud-config-erueka-client
 
 eureka:
   instance:
