@@ -1,17 +1,18 @@
 spring:
   profiles:
     active:
-    - dev
+    - test
+
 ---
 spring:
   profile: dev
   application: 
       name: dacloud-config-dev
+
 ---
 spring:
   profile: test
   application: 
       name: dacloud-config-test
 
-# 请保存UTF-8格式
 
