@@ -4,7 +4,6 @@ spring:
 ---
 server:
   port: 8001
-  
 spring:
   profile: dev
   application:
@@ -24,7 +23,6 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.dasong.api.entity
   mapper-locations: classpath:mybatis/mapper/**/*.xml
-
 eureka:
   instance:
     hostname: eureka7001.com  #eureka服务端的实例名称
@@ -40,7 +38,6 @@ eureka:
 ---
  server:
   port: 8001
-
 spring:
   profile: test
   application:
@@ -60,7 +57,6 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.dasong.api.entity
   mapper-locations: classpath:mybatis/mapper/**/*.xml
-
 eureka:
   instance:
     hostname: eureka7001.com  #eureka服务端的实例名称
