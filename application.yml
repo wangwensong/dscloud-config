@@ -5,12 +5,12 @@ spring:
 ---
 spring:
   profile: dev
-    application:
+    application: 
       name: dacloud-config-dev
 ---
 spring:
   profile: test
-    application:
+    application: 
       name: dacloud-config-test
 
 # 请保存UTF-8格式
