@@ -37,7 +37,6 @@ eureka:
     instance-id: dept-8001.com
     # 访问路径可以显示ip地址
     prefer-ip-address: true
-  
  ---
  server:
   port: 8001
