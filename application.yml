@@ -2,17 +2,15 @@ spring:
   profiles:
     active:
     - test
-
 ---
 spring:
   profile: dev
-  application: 
+  application:
       name: dacloud-config-dev
-
 ---
 spring:
   profile: test
-  application: 
+  application:
       name: dacloud-config-test
 
 
