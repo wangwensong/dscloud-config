@@ -1,11 +1,12 @@
 spring:
   profiles:
-    active: dev
+    active: 
+     - dev
 ---
 server:
   port: 8001
 spring:
-  profile: dev
+  profiles: dev
   application:
      name: dscloud-config-dept-client
   datasource:
