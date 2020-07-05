@@ -12,7 +12,7 @@ spring:
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource
      driver-class-name: com.mysql.cj.jdbc.Driver
-     url: jdbc:mysql://10.91.31。34:3306/share?useUnicode=true&useSSL=false&characterEncoding=UTF8
+     url: jdbc:mysql://10.91.31.34:3306/share?useUnicode=true&useSSL=false&characterEncoding=UTF8
      username: root
      password: root
      dbcp2: #启用dbcp2配置
