@@ -1,1 +1,16 @@
-
+spring:
+  profiles:
+    active: 
+    - test
+       
+---
+spring:
+  profile: dev
+  application:
+      name: dscloud-config-dev
+      
+---
+spring:
+  profile: test
+  application:
+      name: dscloud-config-test
