@@ -1,7 +1,6 @@
 spring:
   profiles:
-    active: 
-     - dev
+    active: dev
 ---
 server:
   port: 8001
@@ -10,7 +9,7 @@ mybatis:
   type-aliases-package: com.dasong.api.entity
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profiles: dev
+  profile: dev
   application:
      name: dscloud-config-dept-client
   datasource:
@@ -29,7 +28,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
         # 自定义服务名称
-   instance:
-     instance-id: dept-8001.com
-     # 访问路径可以显示ip地址
-     prefer-ip-address: true
+    instance:
+      instance-id: dept-8001.com
+      # 访问路径可以显示ip地址
+      prefer-ip-address: true
