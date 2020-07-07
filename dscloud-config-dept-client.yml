@@ -9,7 +9,7 @@ mybatis:
   type-aliases-package: com.dasong.api.entity
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profile: dev
+  profiles: dev
   application:
      name: dscloud-config-dept-client
   datasource:
